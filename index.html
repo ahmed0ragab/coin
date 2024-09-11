@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <!--link css file then link bootstrap files (cause this is best practices)-->
+    <!--including of bootstap file for css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--then including of css files -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body style="background-image: url(backgroud.jpg); background-size: cover; background-repeat: no-repeat;">
+    <div class="row">
+       
+        <div class="col text-center badge text-dark"> <span class=""><img src="Untitled.png" alt=""></span></div>
+    </div>
+    <div class="container w-50 bg-white ">
+        <div >
+            <h2 class="font-weight-bold" style="font-family: 'Times New Roman', Times, serif;">sign in to account</h2>
+            <p class="text-muted">Enter your email & password</p>
+        </div>
+        <form action="">
+            <div class="mb-3 form-group">
+                <label for="email" class="form-label">Email address</label>
+                <input class="form-control" id="email" type="email">
+            </div>
+            <div class="mb-3 form-group">
+                <label for="password" class="form-label">password</label>
+                <input id="password" type="password" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                     <div class="form-check">
+                        <label class="form-check-label" for="checkbox"></label>
+                        <input class="form-check-input" id="checkbox" type="checkbox">
+                        remeber password
+                     </div>  
+                </div>
+                <div class="col-6 text-end text-info"><a href="#">remeber passward?</a></div>
+                
+            </div>
+           
+            <button class="btn btn-info w-100 mb-3" type="submit">log in</button>
+        </form>
+        <div>
+            <p class="text-muted mb-3 w-100" >Or Sign In With _________________________________________________________________________________</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <p>don't have account create account</p>
+        </div>
+
+
+    </div>
+
+
+    <!--inlcuding of bootstrap file for js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--including of js file-->
+    <script src="js/main.js"></script>
+</body>
+</html>
